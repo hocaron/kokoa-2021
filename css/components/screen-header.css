@@ -10,9 +10,20 @@
   font-size: 32px;
   font-weight: 640;
 }
-.screen-header__icons span {
+
+.fa-cog{
   position: relative;
+}
+
+.screen-header__icons span {
+  position: flex;
   margin-left: 25px;
+}
+
+.screen-header__notification{
+  position: absolute;
+  left: -3px;
+  bottom: 19px;
 }
 
 @keyframes rotateCog {

@@ -35,18 +35,11 @@
   bottom: 15px;
   animation: notificationAnimation 2s ease-in-out infinite;
 }
-.screen-header__set-up {
-  position: relative;
-}
-.nav__newinformation {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  display: flex;
+
+.nav__stop_notification {
   position: absolute;
-  left: 30px;
-  bottom: 26px;
+  left: 29px;
+  bottom: 25px;
 }
 
 .nav__newinformation--edit {
