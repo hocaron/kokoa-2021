@@ -1,5 +1,10 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-component:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 .user-component,
 .user-component__column:first-child {
@@ -16,6 +21,7 @@
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .user-component__subtitle {
@@ -51,4 +57,11 @@
 
 .user-component__subtitle span {
   color: tomato;
+}
+
+.user-component__music {
+  border: solid 2px rgb(116, 231, 116);
+  padding: 6px 15px;
+  border-radius: 15px;
+  color: rgba(0, 0, 0, 0.8);
 }

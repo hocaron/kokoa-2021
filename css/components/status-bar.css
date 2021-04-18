@@ -16,11 +16,17 @@
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
+  font-weight: 500;
 }
 .status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.fa-bolt {
+  font-weight: 100;
+  font-size: 13px;
 }
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;

@@ -11,7 +11,7 @@
   font-weight: 640;
 }
 
-.fa-cog{
+.fa-cog {
   position: relative;
 }
 
@@ -20,7 +20,11 @@
   margin-left: 25px;
 }
 
-.screen-header__notification{
+.screen-header__icons span:nth-child(2) {
+  font-size: 19px;
+}
+
+.screen-header__notification {
   position: absolute;
   left: -3px;
   bottom: 19px;

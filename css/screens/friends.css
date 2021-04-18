@@ -39,6 +39,7 @@
     visibility: hidden;
   }
 }
+
 #splash-screen {
   background-color: var(--yellow);
   position: absolute;
