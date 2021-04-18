@@ -42,11 +42,6 @@
   bottom: 25px;
 }
 
-.nav__newinformation--edit {
-  left: 72px;
-  bottom: 25px;
-}
-
 @keyframes appearBtnAnimation {
   from {
     opacity: 0;
